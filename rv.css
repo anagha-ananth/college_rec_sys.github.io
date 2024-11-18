@@ -1,0 +1,101 @@
+
+body {
+    background-image: url(bg1.jpg);
+}
+.container {
+    margin-left: 8%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to fit 2 cards per row */
+    grid-gap: 5px; /* Adjust the gap between cards */
+    justify-content: center; /* Align cards to the center */
+    margin-bottom: 5%;
+}
+
+.card {
+    max-width: calc(80% - 20px); /* Set max-width to 50% of the container width minus the grid gap */
+    width: 100%; /* Ensure cards occupy full width of their container */
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.76);
+    word-wrap: break-word; /* Allow content to wrap to the next line */
+    overflow-wrap: break-word; /* Alternative property for better browser support */
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Change to single column on smaller screens */
+    }
+}
+
+/* Add your additional CSS styles here */
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 98%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: none;
+    border-radius: 10cm;
+}
+.card-content {
+    margin-top: 5px;
+    font-size: large;
+}
+.card-content strong {
+    font-weight: bold;
+}
+.contact-about {
+    background-color: rgba(255, 255, 255, 0.76);
+    color: rgb(0, 0, 0);
+    width: 95%;
+    border: none;
+    border-radius: 3cm;
+    margin: 5px;
+}
+.about {
+    padding: 5px ;
+    margin-left:90px;
+}
+.contact {
+    padding: 5px ;
+    margin-left:90px;
+}
+hr {
+    width: 98%;
+    margin-bottom: 2%;
+    color: #333;
+}
+.back-link, .forward-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.page-title {
+    margin-left: 10px;
+    margin: 10;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.page-title:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.profile-symbol img {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 1800%;
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+}

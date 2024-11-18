@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(bg1.jpg);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 98%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: none;
+    border-radius: 10cm;
+    position: relative;
+}
+.nav-link {
+    display: inline-flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style:oblique; /* Adjust font size if needed */
+    margin-right: 30px;
+    margin-left:auto; /* Add spacing between links */
+}
+
+.back-link, .forward-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.page-title {
+    margin-left: 10px;
+    margin: 10;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
+}
+.profile-symbol {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center; /* Align the items vertically */
+}
+
+.profile-symbol img {
+    margin-top: 14px;
+    margin-bottom: 28px;
+    width: 30px; /* Set the width of the image */
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 50px; /* Add some additional space if needed */
+    cursor: pointer;
+    border: none;
+    
+}
+.container {
+    width: 75%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.76);;
+    margin: 20px 0;
+    align-items: start;
+}
+button[type="submit"] {
+    background-color: #105d81;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add margin-top to create space between the button and other elements */
+    margin-top: 20px;
+    margin:70px auto;
+    cursor: pointer;
+    width: 30%;
+    
+}
+button[type="submit"] a{
+text-decoration: none;
+color: white;
+}
+button[type="submit"]:hover {
+    background-color: #29722d;
+}
+hr{
+    width: 98%;
+    color:#333;
+}
+.contact-about {
+    
+    background-color: rgba(255, 255, 255, 0.76); /* Set background color with opacity */
+    color: rgb(0, 0, 0);
+    width: 95%;
+    border: none;
+    border-radius: 3cm;
+    margin: 5px;
+}
+
+.about {
+    padding: 5px ;
+    margin-left:90px;
+}
+
+.contact {
+    padding: 5px ;
+    margin-left:90px;
+}
